@@ -14,12 +14,12 @@ class Calculator {
  var secondNumber : Double?
 
         //덧셈
-        func AddOperation(_ firstNumber: Int, _ secondNumber: Int) -> Double {
+        func AddOperation(_ firstNumber: Int, _ secondNumber: Double) -> Double {
             return firstNumber + secondNumber
         }
         
         //뺄샘
-        func SubtractOperation(_ firstNumber: Double, _ secondNumber: Double) -> Double {
+        func SubtractOperation(_ firstNumber: Int, _ secondNumber: Int) -> Double {
             return firstNumber - secondNumber
         }
         
