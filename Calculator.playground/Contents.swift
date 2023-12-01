@@ -14,7 +14,7 @@ class Calculator {
  var secondNumber : Double?
 
         //덧셈
-        func AddOperation(_ firstNumber: Int, _ secondNumber: Double) -> Double {
+        func AddOperation(_ firstNumber: Int, _ secondNumber: Int) -> Double {
             return firstNumber + secondNumber
         }
         
